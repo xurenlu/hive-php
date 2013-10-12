@@ -1,0 +1,88 @@
+Starting Hive Thrift Server
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121435_2142136370.txt
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121457_196530753.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121457_758294937.txt
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121459_1040481394.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121459_1080217686.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121501_1859126057.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121502_221778536.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121505_1320359062.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121505_529714155.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121506_1134881211.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121506_1460096915.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121508_1491354737.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121508_1500905122.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121509_1560922228.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121511_1594062246.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121511_270698386.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+FAILED: ParseException line 1:14 mismatched input ';' expecting EOF near 'databases'
+
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121512_1123248852.txt
+/home/renlu/hive/lib/hive-contrib-0.10.0.jar; does not exist
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121512_457639702.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+FAILED: ParseException line 1:21 mismatched input ';' expecting EOF near 'tb_user'
+
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121512_1432664136.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK
+Hive history file=/tmp/renlu/hive_job_log_renlu_201310121513_66537401.txt
+Added /home/renlu/hive/lib/hive-contrib-0.10.0.jar to class path
+Added resource: /home/renlu/hive/lib/hive-contrib-0.10.0.jar
+OK
+OK

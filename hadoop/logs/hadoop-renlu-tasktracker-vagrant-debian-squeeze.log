@@ -1,0 +1,201 @@
+2013-10-12 13:51:49,653 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = vagrant-debian-squeeze/127.0.1.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.1
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-1.2 -r 1503152; compiled by 'mattf' on Mon Jul 22 15:23:09 PDT 2013
+STARTUP_MSG:   java = 1.6.0_26
+************************************************************/
+2013-10-12 13:51:49,823 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2013-10-12 13:51:49,867 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2013-10-12 13:51:49,868 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2013-10-12 13:51:49,868 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: TaskTracker metrics system started
+2013-10-12 13:51:50,023 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2013-10-12 13:51:50,070 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2013-10-12 13:51:50,073 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2013-10-12 13:51:55,195 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2013-10-12 13:51:55,244 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2013-10-12 13:51:55,267 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2013-10-12 13:51:55,269 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as renlu
+2013-10-12 13:51:55,270 INFO org.apache.hadoop.mapred.TaskTracker: Good mapred local directories are: /tmp/hadoop-renlu/mapred/local
+2013-10-12 13:51:55,283 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2013-10-12 13:51:55,284 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source TaskTrackerMetrics registered.
+2013-10-12 13:51:55,298 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort34732 registered.
+2013-10-12 13:51:55,298 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort34732 registered.
+2013-10-12 13:51:55,300 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2013-10-12 13:51:55,301 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 34732: starting
+2013-10-12 13:51:55,304 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: localhost/127.0.0.1:34732
+2013-10-12 13:51:55,304 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_vagrant-debian-squeeze.vagrantup.com:localhost/127.0.0.1:34732
+2013-10-12 13:51:55,307 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 34732: starting
+2013-10-12 13:51:55,307 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2013-10-12 13:51:55,307 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 34732: starting
+2013-10-12 13:51:55,309 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 34732: starting
+2013-10-12 13:51:55,310 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 34732: starting
+2013-10-12 13:51:55,353 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_vagrant-debian-squeeze.vagrantup.com:localhost/127.0.0.1:34732
+2013-10-12 13:51:55,363 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2013-10-12 13:51:55,368 INFO org.apache.hadoop.mapred.TaskTracker:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@dc67e
+2013-10-12 13:51:55,370 WARN org.apache.hadoop.mapred.TaskTracker: TaskTracker's totalMemoryAllottedForTasks is -1. TaskMemoryManager is disabled.
+2013-10-12 13:51:55,372 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
+2013-10-12 13:51:55,377 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ShuffleServerMetrics registered.
+2013-10-12 13:51:55,379 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50060
+2013-10-12 13:51:55,379 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50060 webServer.getConnectors()[0].getLocalPort() returned 50060
+2013-10-12 13:51:55,379 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50060
+2013-10-12 13:51:55,379 INFO org.mortbay.log: jetty-6.1.26
+2013-10-12 13:51:55,589 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50060
+2013-10-12 13:51:55,589 INFO org.apache.hadoop.mapred.TaskTracker: FILE_CACHE_SIZE for mapOutputServlet set to : 2000
+2013-10-12 14:05:25,192 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201310121351_0001_m_000002_0 task's state:UNASSIGNED
+2013-10-12 14:05:25,207 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201310121351_0001_m_000002_0 which needs 1 slots
+2013-10-12 14:05:25,207 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201310121351_0001_m_000002_0 which needs 1 slots
+2013-10-12 14:05:25,320 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating 4d2d6111-6a46-4a20-a158-b93245547352 in /tmp/hadoop-renlu/mapred/local/taskTracker/distcache/-3158566001997113802_-182530464_751138689/localhost/tmp/hive-renlu/hive_2013-10-12_14-05-23_559_8549249605667733327/-mr-10003-work--7314588787681373302 with rwxr-xr-x
+2013-10-12 14:05:25,327 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cached hdfs://localhost:9000/tmp/hive-renlu/hive_2013-10-12_14-05-23_559_8549249605667733327/-mr-10003/4d2d6111-6a46-4a20-a158-b93245547352#HIVE_PLAN4d2d6111-6a46-4a20-a158-b93245547352 as /tmp/hadoop-renlu/mapred/local/taskTracker/distcache/-3158566001997113802_-182530464_751138689/localhost/tmp/hive-renlu/hive_2013-10-12_14-05-23_559_8549249605667733327/-mr-10003/4d2d6111-6a46-4a20-a158-b93245547352
+2013-10-12 14:05:25,352 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cached hdfs://localhost:9000/tmp/hive-renlu/hive_2013-10-12_14-05-23_559_8549249605667733327/-mr-10003/4d2d6111-6a46-4a20-a158-b93245547352#HIVE_PLAN4d2d6111-6a46-4a20-a158-b93245547352 as /tmp/hadoop-renlu/mapred/local/taskTracker/distcache/-3158566001997113802_-182530464_751138689/localhost/tmp/hive-renlu/hive_2013-10-12_14-05-23_559_8549249605667733327/-mr-10003/4d2d6111-6a46-4a20-a158-b93245547352
+2013-10-12 14:05:25,428 INFO org.apache.hadoop.mapred.JobLocalizer: Initializing user renlu on this TT.
+2013-10-12 14:05:26,199 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating hive-builtins-0.10.0.jar in /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/2668492229323629937_274559682_751139162/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0001/libjars/hive-builtins-0.10.0.jar-work-5930134907621320943 with rwxr-xr-x
+2013-10-12 14:05:26,214 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Extracting /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/2668492229323629937_274559682_751139162/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0001/libjars/hive-builtins-0.10.0.jar-work-5930134907621320943/hive-builtins-0.10.0.jar to /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/2668492229323629937_274559682_751139162/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0001/libjars/hive-builtins-0.10.0.jar-work-5930134907621320943
+2013-10-12 14:05:26,223 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cached hdfs://localhost:9000/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0001/libjars/hive-builtins-0.10.0.jar as /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/2668492229323629937_274559682_751139162/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0001/libjars/hive-builtins-0.10.0.jar
+2013-10-12 14:05:26,294 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201310121351_0001_m_-572550109
+2013-10-12 14:05:26,295 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201310121351_0001_m_-572550109 spawned.
+2013-10-12 14:05:26,296 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-renlu/mapred/local/ttprivate/taskTracker/renlu/jobcache/job_201310121351_0001/attempt_201310121351_0001_m_000002_0/taskjvm.sh
+2013-10-12 14:05:28,893 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201310121351_0001_m_-572550109 given task: attempt_201310121351_0001_m_000002_0
+2013-10-12 14:05:29,937 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0001_m_000002_0 0.0% setup
+2013-10-12 14:05:29,938 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201310121351_0001_m_000002_0 is done.
+2013-10-12 14:05:29,939 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201310121351_0001_m_000002_0  was -1
+2013-10-12 14:05:29,939 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2013-10-12 14:05:30,212 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201310121351_0001_m_-572550109 exited with exit code 0. Number of tasks it ran: 1
+2013-10-12 14:05:30,225 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201310121351_0001_m_000000_0 task's state:UNASSIGNED
+2013-10-12 14:05:30,225 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201310121351_0001_m_000000_0 which needs 1 slots
+2013-10-12 14:05:30,225 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201310121351_0001_m_000000_0 which needs 1 slots
+2013-10-12 14:05:30,242 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201310121351_0001_m_-1915560112
+2013-10-12 14:05:30,247 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201310121351_0001_m_-1915560112 spawned.
+2013-10-12 14:05:30,261 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-renlu/mapred/local/ttprivate/taskTracker/renlu/jobcache/job_201310121351_0001/attempt_201310121351_0001_m_000000_0/taskjvm.sh
+2013-10-12 14:05:30,279 INFO org.apache.hadoop.io.nativeio.NativeIO: Initialized cache for UID to User mapping with a cache timeout of 14400 seconds.
+2013-10-12 14:05:30,291 INFO org.apache.hadoop.io.nativeio.NativeIO: Got UserName renlu for UID 1001 from the native implementation
+2013-10-12 14:05:30,818 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201310121351_0001_m_-1915560112 given task: attempt_201310121351_0001_m_000000_0
+2013-10-12 14:05:31,740 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0001_m_000000_0 0.0% hdfs://localhost:9000/user/hive/warehouse/tb_users/data1:0+27
+2013-10-12 14:05:31,741 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201310121351_0001_m_000000_0 is done.
+2013-10-12 14:05:31,741 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201310121351_0001_m_000000_0  was -1
+2013-10-12 14:05:31,743 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2013-10-12 14:05:31,782 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201310121351_0001_m_-1915560112 exited with exit code 0. Number of tasks it ran: 1
+2013-10-12 14:05:31,842 INFO org.apache.hadoop.mapred.TaskTracker: Received KillTaskAction for task: attempt_201310121351_0001_m_000002_0
+2013-10-12 14:05:31,842 INFO org.apache.hadoop.mapred.TaskTracker: About to purge task: attempt_201310121351_0001_m_000002_0
+2013-10-12 14:05:31,842 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201310121351_0001_m_000002_0 not found in cache
+2013-10-12 14:05:32,051 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201310121351_0001_m_000001_0 task's state:UNASSIGNED
+2013-10-12 14:05:32,051 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201310121351_0001_m_000001_0 which needs 1 slots
+2013-10-12 14:05:32,051 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201310121351_0001_m_000001_0 which needs 1 slots
+2013-10-12 14:05:32,057 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201310121351_0001_m_1160416231
+2013-10-12 14:05:32,057 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201310121351_0001_m_1160416231 spawned.
+2013-10-12 14:05:32,058 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-renlu/mapred/local/ttprivate/taskTracker/renlu/jobcache/job_201310121351_0001/attempt_201310121351_0001_m_000001_0/taskjvm.sh
+2013-10-12 14:05:32,585 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201310121351_0001_m_1160416231 given task: attempt_201310121351_0001_m_000001_0
+2013-10-12 14:05:32,995 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0001_m_000001_0 0.0% 
+2013-10-12 14:05:33,010 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0001_m_000001_0 0.0% cleanup
+2013-10-12 14:05:33,011 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201310121351_0001_m_000001_0 is done.
+2013-10-12 14:05:33,011 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201310121351_0001_m_000001_0  was -1
+2013-10-12 14:05:33,011 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2013-10-12 14:05:33,052 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201310121351_0001_m_1160416231 exited with exit code 0. Number of tasks it ran: 1
+2013-10-12 14:05:33,844 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201310121351_0001
+2013-10-12 14:05:33,844 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201310121351_0001_m_000000_0 not found in cache
+2013-10-12 14:05:33,844 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201310121351_0001_m_000001_0 not found in cache
+2013-10-12 14:05:33,847 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201310121351_0001 for user-log deletion with retainTimeStamp:1381669533844
+2013-10-12 14:07:41,586 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201310121351_0002_m_000002_0 task's state:UNASSIGNED
+2013-10-12 14:07:41,586 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201310121351_0002_m_000002_0 which needs 1 slots
+2013-10-12 14:07:41,586 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201310121351_0002_m_000002_0 which needs 1 slots
+2013-10-12 14:07:41,621 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating 4e63c94d-e570-4ac4-83f3-ab2814e8b55e in /tmp/hadoop-renlu/mapred/local/taskTracker/distcache/-8707051449310795468_652719835_751275845/localhost/tmp/hive-renlu/hive_2013-10-12_14-07-40_736_6321372902657158558/-mr-10003-work-6062336700418131988 with rwxr-xr-x
+2013-10-12 14:07:41,625 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cached hdfs://localhost:9000/tmp/hive-renlu/hive_2013-10-12_14-07-40_736_6321372902657158558/-mr-10003/4e63c94d-e570-4ac4-83f3-ab2814e8b55e#HIVE_PLAN4e63c94d-e570-4ac4-83f3-ab2814e8b55e as /tmp/hadoop-renlu/mapred/local/taskTracker/distcache/-8707051449310795468_652719835_751275845/localhost/tmp/hive-renlu/hive_2013-10-12_14-07-40_736_6321372902657158558/-mr-10003/4e63c94d-e570-4ac4-83f3-ab2814e8b55e
+2013-10-12 14:07:41,625 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cached hdfs://localhost:9000/tmp/hive-renlu/hive_2013-10-12_14-07-40_736_6321372902657158558/-mr-10003/4e63c94d-e570-4ac4-83f3-ab2814e8b55e#HIVE_PLAN4e63c94d-e570-4ac4-83f3-ab2814e8b55e as /tmp/hadoop-renlu/mapred/local/taskTracker/distcache/-8707051449310795468_652719835_751275845/localhost/tmp/hive-renlu/hive_2013-10-12_14-07-40_736_6321372902657158558/-mr-10003/4e63c94d-e570-4ac4-83f3-ab2814e8b55e
+2013-10-12 14:07:41,639 INFO org.apache.hadoop.mapred.JobLocalizer: Initializing user renlu on this TT.
+2013-10-12 14:07:42,091 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating hive-builtins-0.10.0.jar in /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/586221333879709021_-174136957_751275941/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0002/libjars/hive-builtins-0.10.0.jar-work--4436759979879483175 with rwxr-xr-x
+2013-10-12 14:07:42,098 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Extracting /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/586221333879709021_-174136957_751275941/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0002/libjars/hive-builtins-0.10.0.jar-work--4436759979879483175/hive-builtins-0.10.0.jar to /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/586221333879709021_-174136957_751275941/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0002/libjars/hive-builtins-0.10.0.jar-work--4436759979879483175
+2013-10-12 14:07:42,105 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cached hdfs://localhost:9000/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0002/libjars/hive-builtins-0.10.0.jar as /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/586221333879709021_-174136957_751275941/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0002/libjars/hive-builtins-0.10.0.jar
+2013-10-12 14:07:42,138 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201310121351_0002_m_1356464435
+2013-10-12 14:07:42,138 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201310121351_0002_m_1356464435 spawned.
+2013-10-12 14:07:42,139 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-renlu/mapred/local/ttprivate/taskTracker/renlu/jobcache/job_201310121351_0002/attempt_201310121351_0002_m_000002_0/taskjvm.sh
+2013-10-12 14:07:42,770 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201310121351_0002_m_1356464435 given task: attempt_201310121351_0002_m_000002_0
+2013-10-12 14:07:43,243 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0002_m_000002_0 0.0% setup
+2013-10-12 14:07:43,244 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201310121351_0002_m_000002_0 is done.
+2013-10-12 14:07:43,244 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201310121351_0002_m_000002_0  was -1
+2013-10-12 14:07:43,245 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2013-10-12 14:07:43,290 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201310121351_0002_m_1356464435 exited with exit code 0. Number of tasks it ran: 1
+2013-10-12 14:07:43,406 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201310121351_0002_m_000000_0 task's state:UNASSIGNED
+2013-10-12 14:07:43,406 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201310121351_0002_m_000000_0 which needs 1 slots
+2013-10-12 14:07:43,406 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201310121351_0002_m_000000_0 which needs 1 slots
+2013-10-12 14:07:43,413 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201310121351_0002_m_-1315239704
+2013-10-12 14:07:43,414 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201310121351_0002_m_-1315239704 spawned.
+2013-10-12 14:07:43,415 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-renlu/mapred/local/ttprivate/taskTracker/renlu/jobcache/job_201310121351_0002/attempt_201310121351_0002_m_000000_0/taskjvm.sh
+2013-10-12 14:07:43,887 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201310121351_0002_m_-1315239704 given task: attempt_201310121351_0002_m_000000_0
+2013-10-12 14:07:43,891 INFO org.apache.hadoop.mapred.TaskTracker: Received KillTaskAction for task: attempt_201310121351_0002_m_000002_0
+2013-10-12 14:07:43,891 INFO org.apache.hadoop.mapred.TaskTracker: About to purge task: attempt_201310121351_0002_m_000002_0
+2013-10-12 14:07:43,891 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201310121351_0002_m_000002_0 not found in cache
+2013-10-12 14:07:44,638 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0002_m_000000_0 0.5% hdfs://localhost:9000/user/hive/warehouse/tb_users/data2:0+27
+2013-10-12 14:07:44,639 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201310121351_0002_m_000000_0 is done.
+2013-10-12 14:07:44,639 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201310121351_0002_m_000000_0  was -1
+2013-10-12 14:07:44,639 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2013-10-12 14:07:44,681 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201310121351_0002_m_-1315239704 exited with exit code 0. Number of tasks it ran: 1
+2013-10-12 14:07:44,925 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201310121351_0002_m_000001_0 task's state:UNASSIGNED
+2013-10-12 14:07:44,925 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201310121351_0002_m_000001_0 which needs 1 slots
+2013-10-12 14:07:44,925 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201310121351_0002_m_000001_0 which needs 1 slots
+2013-10-12 14:07:44,930 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201310121351_0002_m_-1175106086
+2013-10-12 14:07:44,931 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201310121351_0002_m_-1175106086 spawned.
+2013-10-12 14:07:44,931 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-renlu/mapred/local/ttprivate/taskTracker/renlu/jobcache/job_201310121351_0002/attempt_201310121351_0002_m_000001_0/taskjvm.sh
+2013-10-12 14:07:45,420 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201310121351_0002_m_-1175106086 given task: attempt_201310121351_0002_m_000001_0
+2013-10-12 14:07:45,808 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0002_m_000001_0 0.0% 
+2013-10-12 14:07:45,822 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0002_m_000001_0 0.0% cleanup
+2013-10-12 14:07:45,823 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201310121351_0002_m_000001_0 is done.
+2013-10-12 14:07:45,823 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201310121351_0002_m_000001_0  was -1
+2013-10-12 14:07:45,823 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2013-10-12 14:07:45,893 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201310121351_0002
+2013-10-12 14:07:45,893 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201310121351_0002_m_000001_0 not found in cache
+2013-10-12 14:07:45,893 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201310121351_0002_m_000000_0 not found in cache
+2013-10-12 14:07:45,893 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201310121351_0002 for user-log deletion with retainTimeStamp:1381669665893
+2013-10-12 14:07:45,950 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201310121351_0002_m_-1175106086 exited with exit code 0. Number of tasks it ran: 1
+2013-10-12 14:08:03,081 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201310121351_0003_m_000002_0 task's state:UNASSIGNED
+2013-10-12 14:08:03,081 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201310121351_0003_m_000002_0 which needs 1 slots
+2013-10-12 14:08:03,081 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201310121351_0003_m_000002_0 which needs 1 slots
+2013-10-12 14:08:03,109 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating 1cb9223b-c332-4a27-a9fd-3124b1be33ec in /tmp/hadoop-renlu/mapred/local/taskTracker/distcache/6169227602560289774_-1549511233_751297746/localhost/tmp/hive-renlu/hive_2013-10-12_14-08-02_743_40313530648805695/-mr-10003-work--4289908352840164541 with rwxr-xr-x
+2013-10-12 14:08:03,114 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cached hdfs://localhost:9000/tmp/hive-renlu/hive_2013-10-12_14-08-02_743_40313530648805695/-mr-10003/1cb9223b-c332-4a27-a9fd-3124b1be33ec#HIVE_PLAN1cb9223b-c332-4a27-a9fd-3124b1be33ec as /tmp/hadoop-renlu/mapred/local/taskTracker/distcache/6169227602560289774_-1549511233_751297746/localhost/tmp/hive-renlu/hive_2013-10-12_14-08-02_743_40313530648805695/-mr-10003/1cb9223b-c332-4a27-a9fd-3124b1be33ec
+2013-10-12 14:08:03,115 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cached hdfs://localhost:9000/tmp/hive-renlu/hive_2013-10-12_14-08-02_743_40313530648805695/-mr-10003/1cb9223b-c332-4a27-a9fd-3124b1be33ec#HIVE_PLAN1cb9223b-c332-4a27-a9fd-3124b1be33ec as /tmp/hadoop-renlu/mapred/local/taskTracker/distcache/6169227602560289774_-1549511233_751297746/localhost/tmp/hive-renlu/hive_2013-10-12_14-08-02_743_40313530648805695/-mr-10003/1cb9223b-c332-4a27-a9fd-3124b1be33ec
+2013-10-12 14:08:03,166 INFO org.apache.hadoop.mapred.JobLocalizer: Initializing user renlu on this TT.
+2013-10-12 14:08:03,551 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating hive-builtins-0.10.0.jar in /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/4555631199510218203_-622833596_751297816/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0003/libjars/hive-builtins-0.10.0.jar-work-7427683260871229039 with rwxr-xr-x
+2013-10-12 14:08:03,556 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Extracting /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/4555631199510218203_-622833596_751297816/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0003/libjars/hive-builtins-0.10.0.jar-work-7427683260871229039/hive-builtins-0.10.0.jar to /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/4555631199510218203_-622833596_751297816/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0003/libjars/hive-builtins-0.10.0.jar-work-7427683260871229039
+2013-10-12 14:08:03,560 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cached hdfs://localhost:9000/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0003/libjars/hive-builtins-0.10.0.jar as /tmp/hadoop-renlu/mapred/local/taskTracker/renlu/distcache/4555631199510218203_-622833596_751297816/localhost/tmp/hadoop-renlu/mapred/staging/renlu/.staging/job_201310121351_0003/libjars/hive-builtins-0.10.0.jar
+2013-10-12 14:08:03,594 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201310121351_0003_m_-1560932699
+2013-10-12 14:08:03,594 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201310121351_0003_m_-1560932699 spawned.
+2013-10-12 14:08:03,601 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-renlu/mapred/local/ttprivate/taskTracker/renlu/jobcache/job_201310121351_0003/attempt_201310121351_0003_m_000002_0/taskjvm.sh
+2013-10-12 14:08:04,437 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201310121351_0003_m_-1560932699 given task: attempt_201310121351_0003_m_000002_0
+2013-10-12 14:08:04,843 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0003_m_000002_0 0.0% setup
+2013-10-12 14:08:04,844 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201310121351_0003_m_000002_0 is done.
+2013-10-12 14:08:04,844 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201310121351_0003_m_000002_0  was -1
+2013-10-12 14:08:04,846 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2013-10-12 14:08:04,894 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201310121351_0003_m_-1560932699 exited with exit code 0. Number of tasks it ran: 1
+2013-10-12 14:08:04,898 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201310121351_0003_m_000000_0 task's state:UNASSIGNED
+2013-10-12 14:08:04,898 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201310121351_0003_m_000000_0 which needs 1 slots
+2013-10-12 14:08:04,898 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201310121351_0003_m_000000_0 which needs 1 slots
+2013-10-12 14:08:04,912 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201310121351_0003_m_2005457770
+2013-10-12 14:08:04,912 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201310121351_0003_m_2005457770 spawned.
+2013-10-12 14:08:04,914 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-renlu/mapred/local/ttprivate/taskTracker/renlu/jobcache/job_201310121351_0003/attempt_201310121351_0003_m_000000_0/taskjvm.sh
+2013-10-12 14:08:05,427 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201310121351_0003_m_2005457770 given task: attempt_201310121351_0003_m_000000_0
+2013-10-12 14:08:05,899 INFO org.apache.hadoop.mapred.TaskTracker: Received KillTaskAction for task: attempt_201310121351_0003_m_000002_0
+2013-10-12 14:08:05,899 INFO org.apache.hadoop.mapred.TaskTracker: About to purge task: attempt_201310121351_0003_m_000002_0
+2013-10-12 14:08:05,900 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201310121351_0003_m_000002_0 not found in cache
+2013-10-12 14:08:06,144 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0003_m_000000_0 0.5% hdfs://localhost:9000/user/hive/warehouse/tb_users/data2:0+27
+2013-10-12 14:08:06,145 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201310121351_0003_m_000000_0 is done.
+2013-10-12 14:08:06,145 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201310121351_0003_m_000000_0  was -1
+2013-10-12 14:08:06,146 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2013-10-12 14:08:06,197 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201310121351_0003_m_2005457770 exited with exit code 0. Number of tasks it ran: 1
+2013-10-12 14:08:06,410 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201310121351_0003_m_000001_0 task's state:UNASSIGNED
+2013-10-12 14:08:06,410 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201310121351_0003_m_000001_0 which needs 1 slots
+2013-10-12 14:08:06,410 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201310121351_0003_m_000001_0 which needs 1 slots
+2013-10-12 14:08:06,420 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201310121351_0003_m_-1242596626
+2013-10-12 14:08:06,420 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201310121351_0003_m_-1242596626 spawned.
+2013-10-12 14:08:06,422 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-renlu/mapred/local/ttprivate/taskTracker/renlu/jobcache/job_201310121351_0003/attempt_201310121351_0003_m_000001_0/taskjvm.sh
+2013-10-12 14:08:06,908 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201310121351_0003_m_-1242596626 given task: attempt_201310121351_0003_m_000001_0
+2013-10-12 14:08:07,309 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0003_m_000001_0 0.0% 
+2013-10-12 14:08:07,329 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201310121351_0003_m_000001_0 0.0% cleanup
+2013-10-12 14:08:07,330 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201310121351_0003_m_000001_0 is done.
+2013-10-12 14:08:07,330 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201310121351_0003_m_000001_0  was -1
+2013-10-12 14:08:07,331 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2013-10-12 14:08:07,369 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201310121351_0003_m_-1242596626 exited with exit code 0. Number of tasks it ran: 1
+2013-10-12 14:08:07,901 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201310121351_0003
+2013-10-12 14:08:07,901 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201310121351_0003_m_000000_0 not found in cache
+2013-10-12 14:08:07,901 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201310121351_0003_m_000001_0 not found in cache
+2013-10-12 14:08:07,903 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201310121351_0003 for user-log deletion with retainTimeStamp:1381669687901
